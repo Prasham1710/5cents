@@ -1,70 +1,64 @@
-# Next.js Project  
+# Api Task Project
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 🚀 Initial Setup  
+## Getting Started
 
-\```bash
-# 1️⃣ Clone the Repository  
-git clone <your-repo-url>
-cd <your-project-name>
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [npm](https://www.npmjs.com/) / [yarn](https://yarnpkg.com/) / [pnpm](https://pnpm.io/) / [bun](https://bun.sh/)
+- [Git](https://git-scm.com/)
 
-# 2️⃣ Install Dependencies  
-npm install
-# or
-yarn install
-# or
-pnpm install
+### Installation
+Clone the repository and install dependencies:
 
-# 3️⃣ Install & Setup ShadCN UI  
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
-# Install ShadCN CLI globally  
-npm install -g shadcn-ui
+# Install dependencies
+npm install  # or yarn install, pnpm install, bun install
+```
 
-# Initialize ShadCN in the project  
-npx shadcn-ui@latest init
+### Running the Development Server
 
-# Install required dependencies  
-npm install tailwind-variants clsx lucide-react class-variance-authority
+```bash
+npm run dev  # or yarn dev, pnpm dev, bun dev
+```
 
-# Add a component (e.g., Button)  
-npx shadcn-ui@latest add button
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-# Ensure `tailwind.config.js` and `globals.css` are properly configured.  
-\```
+### Building for Production
 
----
+To build and start the production server, run:
 
-## ▶️ Running Instructions  
+```bash
+npm run build
+npm run start
+```
 
-\```bash
-# Start the development server  
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-\```
+### Environment Variables
+If your project requires environment variables, create a `.env.local` file in the root directory:
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the project.  
+```bash
+NEXT_PUBLIC_API_URL=your_api_url
+NEXT_PUBLIC_OTHER_VAR=your_value
+```
 
-You can start editing the project by modifying `app/page.tsx`. The page auto-updates as you edit the file.  
+### Deployment
+The project is deployed and accessible at:
 
----
+[Live Demo](https://5cents.vercel.app/dashboard)
 
-## 📚 Learn More  
+## Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
+- [Learn Next.js](https://nextjs.org/learn)
 
-To learn more about Next.js and its features, check out:  
+## Contributing
+Feel free to fork this repository and submit pull requests.
 
-- [Next.js Documentation](https://nextjs.org/docs)  
-- [Learn Next.js](https://nextjs.org/learn)  
-
----
-
-## 🚀 Deploy on Vercel  
-
-To deploy this Next.js app, use [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).  
-
-For deployment details, check the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).  
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
